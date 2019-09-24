@@ -1,0 +1,7 @@
+a=input("enter name")
+b=a.strip()
+b=b.lower()
+l=len(b)
+print("name has:",l,"chars")
+print("first letter:",b[0])
+print("your name:",b.replace("a","i"))

@@ -1,6 +1,8 @@
-names="modi yogi raj raj amit nirmla ajeet vksingh"
-test=input("enter name")
+names="modi yogi raj rajnath amit nirmla ajeet vksingh"
+nm=names.split()
+l=len(nm)
+test=input("enter name:")
 if test in names:
-    print("namefound")
+    print(test," found in:",l,"names")
 else:
-    print("not found")
+    print(test," not found in:",l,"names")
